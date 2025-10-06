@@ -1,0 +1,53 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #e8f5e9; /* Fundo mais claro */
+    color: #333;
+    padding: 20px;
+}
+
+h1 {
+    color: #1b5e20; /* Destaque verde escuro */
+}
+
+#gameCanvas {
+    border: 5px solid #4CAF50; 
+    background-color: #ffffff;
+    display: block;
+    margin: 20px auto;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#desafio-nome {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #0d47a1; /* Destaque azul */
+}
+
+#feedback {
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    min-height: 25px;
+    color: #b71c1c;
+}
+
+#controles button {
+    padding: 12px 25px;
+    margin: 5px;
+    background-color: #4CAF50; /* Botão verde */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+    font-size: 1em;
+}
+
+#controles button:hover {
+    background-color: #388e3c;
+    transform: translateY(-2px);
+}
